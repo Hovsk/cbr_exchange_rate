@@ -29,7 +29,7 @@ This project fetches exchange rates from the Central Bank of Russia, caches them
 4. **Configure Environment Variables**
 
    ```sh
-   Create a .env file and add variables from `env.example`
+   cp env.example .env
 
 5. **Run Redis Server**
 
