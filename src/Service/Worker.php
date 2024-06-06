@@ -15,9 +15,6 @@ class Worker
         $this->broker = $broker;
     }
 
-    /**
-     * Collect exchange rate data for the last 180 days and cache it.
-     */
     public function collectDataForLast180Days(): void
     {
         $endDate = new \DateTime();
