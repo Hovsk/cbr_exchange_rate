@@ -14,12 +14,12 @@ This project fetches exchange rates from the Central Bank of Russia, caches them
 1. **Clone the Repository**
 
    ```sh
-   git clone <repository_url>
+   git clone https://github.com/Hovsk/cbr_exchange_rate.git
    
 2. **Navigate to the Project Directory**
 
    ```sh
-   cd <repository_url>
+   cd cbr_exchange_rate
    
 3. **Install Dependencies**
 
@@ -29,7 +29,7 @@ This project fetches exchange rates from the Central Bank of Russia, caches them
 4. **Configure Environment Variables**
 
    ```sh
-   Create a .env file and variables from `env.example`
+   Create a .env file and add variables from `env.example`
 
 5. **Run Redis Server**
 
