@@ -57,7 +57,7 @@ php bin/console app:collect-rates
 php bin/console app:consume-rates
 ```
 
-After these two you can run the following command to 
+**Only** After these two you can run the following command to
 **Display Exchange Rates and Differences**
 ```sh
 php bin/console app:display-rates 08-02-2024 
